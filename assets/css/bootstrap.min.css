@@ -6086,7 +6086,7 @@ button.close {
 .carousel-item {
     position: relative;
     display: none;
-    -ms-flex-align: center;
+    -ms-flex-align: start;
     align-items: center;
     width: 100%;
     -webkit-backface-visibility: hidden;
