@@ -2638,7 +2638,7 @@ hr {
 .main-header .main-menu ul li a {
     color: #fff;
     font-weight: 500;
-    padding: 35px 15px;
+    padding: 25px 10px;
     display: block;
     font-size: 14px;
     -webkit-transition: all .3s ease-out 0s;
@@ -2749,16 +2749,17 @@ hr {
 }
 
 .header-sticky ul li a {
-    padding: 10px 19px
+    padding: 10px 10px
 }
 
 .header-sticky.sticky-bar.sticky .main-menu ul>li>a {
-    padding: 26px 20px
+    padding: 20px 15px;
+    justify-content: start;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .header-sticky.sticky-bar.sticky .main-menu ul>li>a {
-        padding: 39px 14px
+        padding: 20px 10px
     }
 }
 

@@ -2658,7 +2658,6 @@ hr {
     -ms-transition: all .3s ease-out 0s;
     -o-transition: all .3s ease-out 0s;
     transition: all .3s ease-out 0s;
-    text-transform: capitalize
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2757,20 +2756,21 @@ hr {
 }
 
 .header-sticky.sticky-bar.sticky {
-    background: #191a33
+    background: #191a33;
+    justify-content: start;
 }
 
 .header-sticky ul li a {
-    padding: 10px 19px
+    padding: 10px 10px
 }
 
 .header-sticky.sticky-bar.sticky .main-menu ul>li>a {
-    padding: 26px 20px
+    padding: 20px 15px 0px 0px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .header-sticky.sticky-bar.sticky .main-menu ul>li>a {
-        padding: 39px 14px
+        padding: 10px 10px
     }
 }
 
@@ -2902,7 +2902,7 @@ hr {
     font-family: 'Barlow', sans-serif;
     line-height: 1;
     text-transform: uppercase;
-    color: #e25311;
+    color: #ff3500;
     margin: 0;
     padding: 0
 }
