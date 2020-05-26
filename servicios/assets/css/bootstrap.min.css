@@ -6086,7 +6086,7 @@ button.close {
 .carousel-item {
     position: relative;
     display: none;
-    -ms-flex-align: center;
+    -ms-flex-align: start;
     align-items: center;
     width: 100%;
     -webkit-backface-visibility: hidden;
@@ -6310,7 +6310,7 @@ button.close {
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #fff;
+    color: rgb(80, 1, 1);
     text-align: center
 }
 
@@ -9234,8 +9234,8 @@ a.text-dark:hover {
 
 @media print {
     *,
-    ::after,
-    ::before {
+     ::after,
+     ::before {
         text-shadow: none!important;
         box-shadow: none!important
     }

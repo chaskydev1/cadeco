@@ -6086,7 +6086,7 @@ button.close {
 .carousel-item {
     position: relative;
     display: none;
-    -ms-flex-align: center;
+    -ms-flex-align: start;
     align-items: center;
     width: 100%;
     -webkit-backface-visibility: hidden;
@@ -6305,12 +6305,12 @@ button.close {
 .carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: 500px;
+    bottom: 20px;
     left: 15%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #000000;
+    color: rgb(80, 1, 1);
     text-align: center
 }
 

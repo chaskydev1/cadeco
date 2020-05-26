@@ -155,6 +155,18 @@ p {
     font-weight: normal
 }
 
+.bg-color {
+    background-color: #000000 !important;
+    height: 592px !important;
+    opacity: 0.7 !important;
+}
+
+.img-center .img {
+    content: '';
+    justify-content: center !important;
+    align-items: center !important;
+}
+
 .bg-img-1 {
     background-image: url(../img/slider/slider-img-1.jpg)
 }
@@ -2638,7 +2650,7 @@ hr {
 .main-header .main-menu ul li a {
     color: #fff;
     font-weight: 500;
-    padding: 25px 10px;
+    padding: 20px 10px;
     display: block;
     font-size: 14px;
     -webkit-transition: all .3s ease-out 0s;
@@ -2646,12 +2658,11 @@ hr {
     -ms-transition: all .3s ease-out 0s;
     -o-transition: all .3s ease-out 0s;
     transition: all .3s ease-out 0s;
-    text-transform: capitalize
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .main-header .main-menu ul li a {
-        padding: 35px 10px
+        padding: 20px 10px
     }
 }
 
@@ -2745,7 +2756,8 @@ hr {
 }
 
 .header-sticky.sticky-bar.sticky {
-    background: #191a33
+    background: #191a33;
+    justify-content: start;
 }
 
 .header-sticky ul li a {
@@ -2753,13 +2765,12 @@ hr {
 }
 
 .header-sticky.sticky-bar.sticky .main-menu ul>li>a {
-    padding: 20px 15px;
-    justify-content: start;
+    padding: 20px 15px 0px 0px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .header-sticky.sticky-bar.sticky .main-menu ul>li>a {
-        padding: 20px 10px
+        padding: 10px 10px
     }
 }
 
@@ -2793,7 +2804,7 @@ hr {
 }
 
 .slider-height {
-    min-height: 900px;
+    min-height: 592px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover
@@ -2801,25 +2812,25 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-height {
-        min-height: 620px
+        min-height: 592px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-height {
-        min-height: 600px
+        min-height: 592px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .slider-height {
-        min-height: 600px
+        min-height: 492px
     }
 }
 
 @media (max-width: 575px) {
     .slider-height {
-        min-height: 400px
+        min-height: 392px
     }
 }
 
@@ -2862,13 +2873,13 @@ hr {
 }
 
 .slider-area .hero__caption {
-    margin-left: 27px;
-    padding-top: 150px
+    margin-left: 0px;
+    padding-top: 0px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-area .hero__caption {
-        padding-top: 70px
+        padding-top: 0px
     }
 }
 
@@ -2885,32 +2896,32 @@ hr {
 }
 
 .slider-area .hero__caption h1 {
-    font-size: 140px;
+    font-size: 80px;
     font-weight: 900;
     color: #ffffff;
     font-family: 'Barlow', sans-serif;
     line-height: 1;
     text-transform: uppercase;
-    color: #ff5f13;
+    color: #ff3500;
     margin: 0;
     padding: 0
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .slider-area .hero__caption h1 {
-        font-size: 135px
+        font-size: 80px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-area .hero__caption h1 {
-        font-size: 110px
+        font-size: 70px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .slider-area .hero__caption h1 {
-        font-size: 72px
+        font-size: 60px
     }
 }
 
@@ -2922,8 +2933,8 @@ hr {
 
 .slider-area .hero__caption .stock-text {
     position: relative;
-    left: 119px;
-    top: -38px
+    left: 80px;
+    top: -30px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2955,7 +2966,7 @@ hr {
 }
 
 .slider-area .hero__caption .stock-text h2 {
-    font-size: 140px;
+    font-size: 60px;
     font-weight: 800;
     margin: 0;
     line-height: 1;
@@ -2966,19 +2977,19 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .slider-area .hero__caption .stock-text h2 {
-        font-size: 110px
+        font-size: 60px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-area .hero__caption .stock-text h2 {
-        font-size: 60px
+        font-size: 50px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .slider-area .hero__caption .stock-text h2 {
-        font-size: 52px
+        font-size: 42px
     }
 }
 
@@ -3051,13 +3062,13 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .slider-area .hero__caption .hero-text2 {
-        margin-top: 100px
+        margin-top: 50px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-area .hero__caption .hero-text2 {
-        margin-top: 56px
+        margin-top: 36px
     }
 }
 
@@ -3075,7 +3086,7 @@ hr {
 
 .hero-overly {
     position: relative;
-    z-index: 1
+    z-index: 0
 }
 
 .hero-overly::before {
@@ -7257,29 +7268,18 @@ del {
     font-size: 6rem;
     font-weight: bolder;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-}
-
-.hero-text p {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: medium;
-    position: absolute;
-    top: 60%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }
 
-.hero-text h2 {
+.hero-text p {
     text-align: center;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: light;
     position: absolute;
-    top: 45%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
