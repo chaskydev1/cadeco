@@ -4301,7 +4301,7 @@ hr {
 .footer-area::after {
     position: absolute;
     content: "";
-    background-image: url(../img/gallery/arrow_testimonial.png);
+    background-image: url(../img/gallery/arrow_testimonial.png) !important;
     left: 0;
     right: 0;
     top: 0;
@@ -7296,8 +7296,7 @@ del {
     color: white;
 }
 
-
-.hero-text h1  p  {
+.hero-text h1 p {
     text-align: center;
     font-size: 6rem;
     font-weight: bolder;
