@@ -7264,11 +7264,11 @@ del {
 }
 
 .hero-text h1 {
-    text-align: center;
+    text-align: start;
     font-size: 6rem;
     font-weight: bolder;
     position: absolute;
-    top: 45%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -7279,7 +7279,7 @@ del {
     font-size: 2rem;
     font-weight: light;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
