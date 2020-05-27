@@ -7264,7 +7264,7 @@ del {
 }
 
 .hero-text h1 {
-    text-align: start;
+    text-align: center;
     font-size: 6rem;
     font-weight: bolder;
     position: absolute;
@@ -7287,6 +7287,18 @@ del {
 
 .hero-texta h1 {
     text-align: start;
+    font-size: 6rem;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+.hero-text h1  p  {
+    text-align: center;
     font-size: 6rem;
     font-weight: bolder;
     position: absolute;
