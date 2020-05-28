@@ -4198,6 +4198,10 @@ hr {
     background: #00235b
 }
 
+.t-bg2 {
+    background: #3e4160;
+}
+
 .slick-initialized .slick-slide {
     outline: 0
 }
