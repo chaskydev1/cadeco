@@ -56,6 +56,7 @@
     letter-spacing: 3px;
     text-align: center;
     color: #ff5f13;
+    text-transform: uppercase;
     cursor: pointer
 }
 
@@ -152,18 +153,6 @@ p {
     line-height: 24px;
     margin-bottom: 15px;
     font-weight: normal
-}
-
-.bg-color {
-    background-color: #000000 !important;
-    height: 592px !important;
-    opacity: 0.7 !important;
-}
-
-.img-center .img {
-    content: '';
-    justify-content: center !important;
-    align-items: center !important;
 }
 
 .bg-img-1 {
@@ -412,6 +401,7 @@ hr {
 .btn {
     background: #ff5f13;
     -moz-user-select: none;
+    text-transform: uppercase;
     color: #fff;
     cursor: pointer;
     display: inline-block;
@@ -462,6 +452,7 @@ hr {
 }
 
 .red-btn2 {
+    text-transform: uppercase;
     font-family: "Teko", sans-serif;
     padding: 30px 51px;
     font-size: 16px
@@ -470,6 +461,7 @@ hr {
 .white-btn {
     background: #fff;
     -moz-user-select: none;
+    text-transform: uppercase;
     color: #161e46;
     cursor: pointer;
     display: inline-block;
@@ -2224,6 +2216,7 @@ hr {
     font-size: 90px;
     font-weight: 700;
     line-height: 1.2;
+    text-transform: uppercase;
     font-family: "Teko", sans-serif
 }
 
@@ -2244,6 +2237,7 @@ hr {
 .section-tittle span.back-text {
     font-size: 140px;
     font-weight: 800;
+    text-transform: uppercase;
     -webkit-text-stroke: 1px #f6f7f8;
     -webkit-text-fill-color: transparent;
     margin: 0;
@@ -2569,7 +2563,7 @@ hr {
 }
 
 .header-area {
-    background: rgba(25, 26, 51, 0.7)
+    background: #191a33
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2644,7 +2638,7 @@ hr {
 .main-header .main-menu ul li a {
     color: #fff;
     font-weight: 500;
-    padding: 20px 10px;
+    padding: 19px 9px;
     display: block;
     font-size: 14px;
     -webkit-transition: all .3s ease-out 0s;
@@ -2656,7 +2650,7 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .main-header .main-menu ul li a {
-        padding: 20px 10px
+        padding: 19px 9px
     }
 }
 
@@ -2666,7 +2660,7 @@ hr {
 
 .main-header .main-menu ul ul.submenu {
     position: absolute;
-    width: 170px;
+    width: 130px;
     background: #fff;
     left: 0;
     top: 90%;
@@ -2764,7 +2758,7 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .header-sticky.sticky-bar.sticky .main-menu ul>li>a {
-        padding: 10px 10px
+        padding: 10px 10px;
     }
 }
 
@@ -2805,7 +2799,7 @@ hr {
 }
 
 .slider-height {
-    min-height: 592px;
+    min-height: 500px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover
@@ -2813,25 +2807,25 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-height {
-        min-height: 592px
+        min-height: 620px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-height {
-        min-height: 592px
+        min-height: 600px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .slider-height {
-        min-height: 492px
+        min-height: 600px
     }
 }
 
 @media (max-width: 575px) {
     .slider-height {
-        min-height: 392px
+        min-height: 400px
     }
 }
 
@@ -2874,54 +2868,173 @@ hr {
 }
 
 .slider-area .hero__caption {
-    margin-left: 0px;
-    padding-top: 0px;
+    padding-top: 0px
+}
+
+.hero-texta h1 {
+    text-align: start !important;
+    font-size: 6rem !important;
+    font-weight: bolder !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+.hero-texta p {
+    text-align: center;
+    font-size: 4rem !important;
+    font-weight: medium !important;
+    line-height: initial !important;
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center !important;
+    color: white;
+}
+
+.hero-text h1 {
+    text-align: start !important;
+    font-size: 55px;
+    font-weight: bolder;
+    line-height: normal;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    margin-top: -134px;
+    margin-left: 40%;
+}
+
+.hero-text p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: light;
+    line-height: normal;
+    position: absolute;
+    color: white;
+    margin-top: -50px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-area .hero__caption {
         padding-top: 0px
     }
+    .slider-area .hero__caption .hero-texta h1 {
+        font-size: 6rem !important;
+    }
+    .slider-area .hero__caption .hero-texta p {
+        font-size: 4rem !important;
+    }
+    .slider-area .hero-text h1 {
+        font-size: 40px !important;
+    }
+    .slider-area .hero-text p {
+        font-size: 30px !important;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .slider-area .hero__caption {
-        padding-top: 70px
+        padding-top: 0px
+    }
+    .slider-area .hero__caption .hero-texta h1 {
+        font-size: 45px !important;
+    }
+    .slider-area .hero__caption .hero-texta p {
+        font-size: 30px !important;
+    }
+    .slider-area .hero-text h1 {
+        font-size: 3rem !important;
+    }
+    .slider-area .hero-text p {
+        font-size: 2rem !important;
     }
 }
 
-@media (max-width: 575px) {
+@media only screen and (min-width: 376px) and (max-width: 575px) {
     .slider-area .hero__caption {
-        padding-top: 70px
+        padding-top: 0px
+    }
+    .slider-area .hero__caption .hero-texta h1 {
+        font-size: 35px !important;
+    }
+    .slider-area .hero__caption .hero-texta p {
+        font-size: 25px !important;
+    }
+    .slider-area .hero-text h1 {
+        font-size: 30px !important;
+    }
+    .slider-area .hero-text p {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .slider-area .hero__caption {
+        padding-top: 0px
+    }
+    .slider-area .hero__caption .hero-texta h1 {
+        font-size: 30px !important;
+    }
+    .slider-area .hero__caption .hero-texta p {
+        font-size: 20px !important;
+    }
+    .slider-area .hero-text h1 {
+        font-size: 25px !important;
+    }
+    .slider-area .hero-text p {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .slider-area .hero__caption {
+        padding-top: 0px
+    }
+    .slider-area .hero__caption .hero-texta h1 {
+        font-size: 28px !important;
+    }
+    .slider-area .hero__caption .hero-texta p {
+        font-size: 15px !important;
+    }
+    .slider-area .hero-text h1 {
+        font-size: 28px !important;
+    }
+    .slider-area .hero-text p {
+        font-size: 15px !important;
     }
 }
 
 .slider-area .hero__caption h1 {
-    font-size: 80px;
+    font-size: 140px;
     font-weight: 900;
     color: #ffffff;
     font-family: 'Barlow', sans-serif;
     line-height: 1;
-    color: #ff3500;
+    text-transform: uppercase;
+    color: #ff5f13;
     margin: 0;
     padding: 0
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .slider-area .hero__caption h1 {
-        font-size: 80px
+        font-size: 135px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-area .hero__caption h1 {
-        font-size: 70px
+        font-size: 110px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .slider-area .hero__caption h1 {
-        font-size: 60px
+        font-size: 72px
     }
 }
 
@@ -2933,8 +3046,8 @@ hr {
 
 .slider-area .hero__caption .stock-text {
     position: relative;
-    left: 80px;
-    top: -30px
+    left: 119px;
+    top: -38px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2966,29 +3079,30 @@ hr {
 }
 
 .slider-area .hero__caption .stock-text h2 {
-    font-size: 60px;
+    font-size: 140px;
     font-weight: 800;
     margin: 0;
     line-height: 1;
+    text-transform: uppercase;
     position: absolute;
     color: #fff
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .slider-area .hero__caption .stock-text h2 {
-        font-size: 60px
+        font-size: 110px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-area .hero__caption .stock-text h2 {
-        font-size: 50px
+        font-size: 60px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .slider-area .hero__caption .stock-text h2 {
-        font-size: 42px
+        font-size: 52px
     }
 }
 
@@ -3028,6 +3142,7 @@ hr {
     position: relative;
     color: #fff;
     font-size: 18px;
+    text-transform: uppercase;
     font-family: "Teko", sans-serif;
     font-weight: 400;
     letter-spacing: 0.03em;
@@ -3060,13 +3175,13 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .slider-area .hero__caption .hero-text2 {
-        margin-top: 50px
+        margin-top: 100px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-area .hero__caption .hero-text2 {
-        margin-top: 36px
+        margin-top: 56px
     }
 }
 
@@ -3084,7 +3199,7 @@ hr {
 
 .hero-overly {
     position: relative;
-    z-index: 0
+    z-index: 1;
 }
 
 .hero-overly::before {
@@ -3463,6 +3578,7 @@ hr {
 .support-company-area .support-wrapper .right-content .support-img-cap span {
     font-size: 60px;
     color: #fff;
+    text-transform: uppercase;
     font-weight: 700;
     font-family: "Barlow", sans-serif;
     line-height: 1.2
@@ -3498,6 +3614,7 @@ hr {
     line-height: 1;
     margin: 0;
     font-size: 16px;
+    text-transform: uppercase;
     letter-spacing: .5em
 }
 
@@ -3563,9 +3680,55 @@ hr {
     padding-left: 20px
 }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+    .count-area .count-clients .single-counter .count-text {
+        padding-left: 10px
+    }
+    .count-area .count-clients .single-counter .count-number span {
+        font-size: 45px;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .count-area .count-clients .single-counter .count-text {
+        padding-left: 10px
+    }
+    .count-area .count-clients .single-counter .count-number span {
+        font-size: 25px;
+    }
+    .count-area .count-clients .single-counter .count-text p {
+        font-size: 13px !important;
+    }
+    .count-area .count-clients .single-counter .count-text h5 {
+        font-size: 25px !important;
+    }
+}
+
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    .count-area .count-clients .single-counter .count-text {
+        padding-left: 10px
+    }
+    .count-area .count-clients .single-counter .count-number span {
+        font-size: 30px;
+    }
+    .count-area .count-clients .single-counter .count-text p {
+        font-size: 16px !important;
+    }
+    .count-area .count-clients .single-counter .count-text h5 {
+        font-size: 36px !important;
+    }
+}
+
 .count-area .count-clients .single-counter .count-text p {
     color: #fff;
     font-size: 16px;
+    text-transform: uppercase;
     margin-bottom: 10px;
     display: block
 }
@@ -3842,7 +4005,7 @@ hr {
 .contact-section .project-caption .single-project .project-cap h4 {
     margin: 0;
     line-height: 1.2;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 700
 }
 
@@ -4095,7 +4258,7 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 0px;
-    animation: slide1 0.5s ease-in-out infinite
+    animation: slide1 1s ease-in-out infinite
 }
 
 @keyframes slide1 {
@@ -4189,12 +4352,51 @@ hr {
     top: -3px
 }
 
-.t-bg {
-    background: #00235b
+.slider-active button.slick-arrow {
+    position: absolute;
+    right: 0;
+    bottom: 20px !important;
+    border: 0;
+    padding: 0;
+    z-index: 2;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    color: #616373;
+    background: none;
+    margin: 0 auto;
+    bottom: 0;
+    border: 1px solid #616373
 }
 
-.t-bg2 {
-    background: #3e4160;
+.slider-active button.slick-next {
+    right: 20px;
+    color: #fff;
+    border: 1px solid #fff
+}
+
+.slider-active button.slick-prev {
+    right: 60px;
+    color: #fff;
+    border: 1px solid #fff
+}
+
+.slider-active button i {
+    font-size: 13px;
+    position: relative;
+    top: -3px
+}
+
+.t-bg {
+    background: #00235b
 }
 
 .slick-initialized .slick-slide {
@@ -4238,6 +4440,7 @@ hr {
     color: #fff;
     background: #ff5f13;
     padding: 4px 13px;
+    text-transform: uppercase;
     font-size: 14px;
     font-weight: 300;
     border-radius: 5px
@@ -4299,7 +4502,7 @@ hr {
 .footer-area::after {
     position: absolute;
     content: "";
-    background-image: url(../img/gallery/arrow_testimonial.png) !important;
+    background-image: url(../img/gallery/arrow_testimonial.png);
     left: 0;
     right: 0;
     top: 0;
@@ -4951,6 +5154,7 @@ hr {
     margin-bottom: 0px;
     font-size: 18px;
     line-height: 26px;
+    text-transform: uppercase;
     color: #fff;
     position: relative
 }
@@ -5108,8 +5312,8 @@ hr {
 
 .blog_right_sidebar .single_sidebar_widget {
     background: #fbf9ff;
-    padding: 30px;
-    margin-bottom: 30px
+    padding: 10px;
+    margin-bottom: 10px
 }
 
 .blog_right_sidebar .single_sidebar_widget .btn_1 {
@@ -5117,7 +5321,7 @@ hr {
 }
 
 .blog_right_sidebar .search_widget .form-control {
-    height: 50px;
+    height: 10px;
     border-color: #f0e9ff;
     font-size: 13px;
     color: #999999;
@@ -6201,7 +6405,7 @@ del {
     outline: none;
     line-height: 40px;
     padding: 0 30px;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
     text-decoration: none;
     font-weight: 500;
@@ -6473,6 +6677,7 @@ del {
 .progress-table .table-head .percentage {
     color: #415094;
     line-height: 40px;
+    text-transform: uppercase;
     font-weight: 500
 }
 
@@ -7257,53 +7462,4 @@ del {
 
 .switch-wrap {
     margin-bottom: 10px
-}
-
-.hero-text h1 {
-    text-align: center;
-    font-size: 6rem;
-    font-weight: bolder;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-transform: capitalize;
-   
-}
-
-.hero-text p {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: light;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-.hero-texta h1 {
-    text-align: start;
-    font-size: 6rem;
-    font-weight: bolder;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    text-transform: capitalize;
-}
-
-.hero-texta p {
-    text-align: center;
-    font-size: 4rem;
-    font-weight: medium;
-    line-height: initial;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
 }

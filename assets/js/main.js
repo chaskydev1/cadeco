@@ -35,13 +35,13 @@
             doAnimations($animatingElements);
         });
         BasicSlider.slick({
-            autoplay: false,
-            autoplaySpeed: 4000,
+            autoplay: true,
+            autoplaySpeed: 5000,
             dots: false,
             fade: true,
-            arrows: false,
-            prevArrow: '<button type="button" class="slick-prev"><img src="img/hero_thumb/arrow-left.png" alt=""><img class="secondary-img" src="img/hero_thumb/left-white.png" alt=""></button>',
-            nextArrow: '<button type="button" class="slick-next"><img src="img/hero_thumb/arrow-right.png" alt=""><img class="secondary-img" src="img/hero_thumb/right-white.png" alt=""></button>',
+            arrows: true,
+            prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
+            nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
             responsive: [{
                     breakpoint: 1024,
                     settings: {
@@ -94,7 +94,7 @@
             dots: false,
             infinite: true,
             speed: 1000,
-            autoplay: true,
+            autoplay: false,
             arrows: true,
             prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
             nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
@@ -107,7 +107,7 @@
                         slidesToScroll: 1,
                         infinite: true,
                         dots: false,
-                        arrow: false
+                        arrow: true
                     }
                 },
                 {
