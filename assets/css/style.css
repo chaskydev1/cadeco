@@ -454,8 +454,8 @@ hr {
 .red-btn2 {
     text-transform: uppercase;
     font-family: "Teko", sans-serif;
-    padding: 30px 51px;
-    font-size: 16px
+    padding: 10px 30px;
+    font-size: 16px;
 }
 
 .white-btn {
@@ -2879,6 +2879,30 @@ hr {
     top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+.hero-text h2 {
+    text-align: start !important;
+    font-size: 5rem !important;
+    font-weight: bolder !important;
+    position: absolute !important;
+    top: -100% !important;
+    left: 50% !important;
+    transform: translate(-50%, -230%) !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+.hero-text h3 {
+    text-align: start !important;
+    font-size: 5rem !important;
+    font-weight: bolder !important;
+    position: absolute !important;
+    top: -50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -150%) !important;
     color: white !important;
     text-align: center !important;
 }
